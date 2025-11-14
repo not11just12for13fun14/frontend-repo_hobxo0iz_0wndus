@@ -33,13 +33,35 @@ function App() {
           </div>
         </section>
 
-        {/* Simple About blurb to have a second anchor target */}
+        {/* About */}
         <section id="about" className="bg-white rounded-xl shadow-sm border border-indigo-100 p-6">
-          <h2 className="text-xl font-semibold text-indigo-800">About</h2>
-          <p className="mt-2 text-gray-600">
-            This is a lightweight example built with a focus on clarity: semantic sections,
-            accessible links, and straightforward styles.
-          </p>
+          <h2 className="text-2xl font-semibold text-indigo-800">About</h2>
+          <div className="mt-4 grid gap-6">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">Our Mission</h3>
+              <p className="mt-2 text-gray-600 leading-relaxed">
+                We craft practical, human-centered technology that removes friction and unlocks value.
+                Every feature we ship aims to make someone's day a little easier—reliable, secure, and
+                thoughtfully designed.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">Our Vision</h3>
+              <p className="mt-2 text-gray-600 leading-relaxed">
+                To set the bar for modern consulting by pairing deep technical expertise with genuine
+                partnership. We imagine a world where great software feels invisible—fast, intuitive,
+                and trusted by the people who use it.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">Our Team</h3>
+              <p className="mt-2 text-gray-600 leading-relaxed">
+                We're a curious crew of engineers, designers, and strategists who love solving
+                tricky problems together. We hire for character and craft, champion mentorship,
+                and learn in public so we can level up as one.
+              </p>
+            </div>
+          </div>
         </section>
 
         {/* Basic Form with a single input and submit */}
